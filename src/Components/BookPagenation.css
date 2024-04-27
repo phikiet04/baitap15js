@@ -1,0 +1,9 @@
+.button-container button{
+    color: white;
+    background: rgb(69, 61, 61);
+    border-radius: 150%;
+    margin: 5px;
+}
+.button-container button.active{
+    background: blue;
+}

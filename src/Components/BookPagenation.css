@@ -1,9 +1,37 @@
-.button-container button{
-    color: white;
-    background: rgb(69, 61, 61);
-    border-radius: 150%;
-    margin: 5px;
-}
-.button-container button.active{
-    background: blue;
-}
+.form-create {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container button {
+    padding: 8px 16px;
+    margin: 0 4px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .button-container button:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  .button-container button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  .button-container button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
